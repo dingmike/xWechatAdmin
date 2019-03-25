@@ -100,21 +100,21 @@
     <DialogModel :visible="modalAdd.visible" @cancel="modalAdd.visible=false" @close="modalAdd.visible=false" @ok="modalAdd.visible=false" :title="modalAdd.title" :showFoot="false" transition="zoom">
       <div class="modalAdd">
         <div class="modalAddItem" @click="addCourses('/courses/add/0/1')">
-          <img src="../../../../../wechat/static/img/capsule/练习.png" />
+          <!--<img src="../../../../../wechat/static/img/capsule/练习.png" />-->
           <div>
             <p>亲子互动课</p>
             <span>2小时以内</span>
           </div>
         </div>
         <div class="modalAddItem" @click="addCourses('/courses/add/0/2')">
-          <img src="../../../../../wechat/static/img/capsule/练习.png" />
+          <!--<img src="../../../../../wechat/static/img/capsule/练习.png" />-->
           <div>
             <p>户外游学</p>
             <span>半天以上</span>
           </div>
         </div>
         <div class="modalAddItem" @click="addCourses('/courses/add/0/2')">
-          <img src="../../../../../wechat/static/img/capsule/练习.png" />
+          <!--<img src="../../../../../wechat/static/img/capsule/练习.png" />-->
           <div>
             <p>培训辅导</p>
             <span>半天以上</span>
