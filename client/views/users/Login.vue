@@ -2,7 +2,7 @@
   <div class="login-form-con">
     <div class="tile is-parent is-3 login-form">
       <article class="tile is-child box">
-        <h1 class="title">心迹家庭成长社 管理后台</h1>
+        <h1 class="title">管理后台</h1>
         <div class="block">
           <p class="control has-icon">
             <input class="input" type="text" v-model="username" placeholder="用户名">

@@ -1,7 +1,7 @@
 'use strict'
 
 import api from '../common/api'
-import _ from 'lodash'
+// import _ from 'lodash'
 
 function getCurrentUserInfo () {
   return api.getCurrentUserInfo().then((userInfo) => {
@@ -47,8 +47,9 @@ function getUserInfo () {
 
 function checkLogin () {
   var token = window.localStorage.getItem('token')
-  // console.log('checkLogin:' + token)
-  return !_.isEmpty(token)
+  console.log('checkLogin:' + token)
+  // return !_.isEmpty(token) // 都可以登陆
+  return true
 }
 
 function logout () {

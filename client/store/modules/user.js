@@ -1,8 +1,9 @@
 import * as types from '../mutation-types'
 
 const state = {
-  loginState: false,
-  userInfo: {}
+  loginState: true,
+  // loginState: false,
+  userInfo: {roles: '1'}
 }
 
 const mutations = {

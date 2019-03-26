@@ -11,7 +11,7 @@
           <a class="nav-item hero-brand" href="/">
             <!-- <img src="~assets/logo.svg" :alt="pkginfo.description"> -->
             <div class="is-hidden-mobile">
-              <strong class="admin">心迹家庭成长社 管理后台</strong>
+              <strong class="admin">管理后台1</strong>
             </div>
           </a>
         </div>

@@ -8,7 +8,6 @@ export default {
     expanded: false
   },
   component: lazyLoading('account', true),
-
   children: [
     {
       name: '修改密码',

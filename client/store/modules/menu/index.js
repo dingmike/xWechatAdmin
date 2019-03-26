@@ -143,6 +143,8 @@ function getMenuOrder() {
   return items
 }
 function getRoleMenuItems(userRole) {
+  // 测试阶段
+  userRole = 1
   var items = []
 
   var Role = {}

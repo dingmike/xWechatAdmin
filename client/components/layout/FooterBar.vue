@@ -2,7 +2,7 @@
   <footer class="footer">
     <div class="container">
       <div class="content has-text-centered">
-        <p>Copyright 心迹教育 2017.</p>
+        <p>Copyright fcstec 2017.</p>
       </div>
     </div>
   </footer>
@@ -29,7 +29,7 @@ export default {
   }
 
   .container {
-    position: static; 
+    position: static;
   }
 
 }
